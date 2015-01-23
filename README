@@ -27,6 +27,15 @@ Change directory to the most recent on the stack, and remove it from the stack.
 
 List the directories in the stack, most recent last.
 
+Install
+-------
+
+Either copy the files into your .vim directory, or if you use pathogen:
+
+    cd ~/.vim/bundle
+
+    git clone https://github.com/john-nanney/pushd.vim
+
 Bugs
 ----
 
