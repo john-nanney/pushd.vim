@@ -1,0 +1,25 @@
+*pushd.txt* Use pushd and popd in vim.
+
+Author: John Nanney
+License: Public Domain
+
+INTRODUCTION                                    *pushd*
+
+Like pushd, popd, and dirs in your shell? Now you can do the same thing in
+vim.
+
+I wrote this to have a nice, small script to use pushd and popd in vim. There
+are other plugins for this, but they are fairly large, and depend on other
+plugins.
+
+COMMANDS                                        *fugitive-pushd*
+
+:Pushd [args]           Add current directory to the stack, and change to the
+                        new directory. If no directory is specified, change
+                        directory to the home directory.
+
+:Popd                   Change to the previous directory on the stack.
+
+:Dirs                   Print the directory stack.
+
+ vim:tw=78:et:ft=help:norl:
