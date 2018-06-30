@@ -36,3 +36,7 @@ Either copy the files into your .vim directory, or if you use pathogen:
 ## Bugs
 
 Probably. Send me an email, or better yet a patch.
+
+# Moved to Gitlab
+
+Due to the purchase of Github, this repository will be removed. Development is now on Gitlab https://gitlab.com/john-nanney/pushd.vim
